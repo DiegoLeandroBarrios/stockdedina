@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-  <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+  <link rel="stylesheet" href="{{ secure_asset)'css/style.css') }}">
+  <link rel="icon" href="{{ secure_asset)'favicon.ico') }}" type="image/x-icon">
 </head>
 <body class="imagenLogin">
   <div class="container-fluid p-4 color-nav rounded-5 shadow-lg position-absolute top-50 start-50 translate-middle" style="max-width: 300px;">
