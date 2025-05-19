@@ -34,7 +34,7 @@
         <button class="btn btn-outline-light color-text fw-bold rounded-5 w-100">Ingresar</button>
         </div>
     </form>
-    <div class="mb-2 text-center">
+    <div class="mb-2 text-center mt-2">
         <a href="{{ route('password.request') }}" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
     </div>
 </div>
