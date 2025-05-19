@@ -1,0 +1,78 @@
+.text-abril,
+th {
+    font-family: "Abril Fatface", sans-serif;
+}
+.text-sacramento {
+    font-family: "Sacramento", sans-serif;
+}
+.color-table th {
+    background-color: #f0b6cb !important;
+}
+.color-table td {
+    background-color: #f1c6d6 !important;
+}
+.color-badge {
+    background-color: #f571a2;
+}
+.color-nav {
+    background-color: #f0b6cb !important;
+}
+.color-text {
+    color: #f571a2;
+}
+.bi-list {
+    color: #f571a2;
+}
+#offcanvasScrolling {
+    width: 100%;
+    max-width: 200px;
+}
+.enlaceMenu {
+    color: #f0b6cb;
+    transition: 0.5s;
+}
+.enlaceMenu:hover {
+    transform: scale(1.05);
+    color: #f571a2;
+    text-shadow: 0px 0px 1px rgb(75, 71, 71);
+}
+.imagenHome img {
+    width: 100%;
+    max-width: 250px;
+}
+.hover {
+    transition: 0.3s;
+}
+.hover:hover {
+    transform: scale(1.02);
+}
+.form-edit {
+    max-width: 300px;
+    width: 100%;
+}
+.pagination .page-item.active .page-link {
+    background-color: #f571a2; /* Cambiá esto por tu color */
+    border-color: #f571a2; /* Opcional: bordes */
+    color: white; /* Texto blanco o el que quieras */
+}
+.pagination .page-link:hover {
+    background-color: #f571a2;
+    border-color: #f0b6cb;
+    color: #ffffff;
+}
+.pagination .page-link:focus {
+    box-shadow: none;
+}
+.footer-logo {
+    width: 100%;
+    max-width: 80px;
+}
+.error {
+    font-size: 17px;
+}
+.imagenLogin {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("/img/login.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
